@@ -2,15 +2,3 @@
 {
     text-transform: none;
 }
-
-.post
-{
-    font-size: 1.125rem;
-    line-height: 1.8;
-    max-width: 680px;
-}
-
-    .post p
-    {
-        margin-bottom: 1.5rem;
-    }
