@@ -1,0 +1,61 @@
+baseurl = "https://sagiadinos.com"
+title = "sagiadinos"
+theme = "hugo-theme-stack"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+[pagination]
+pagerSize = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+author = "Niko Sagiadinos"
+avatarURL = "images/sagiadinos.jpg"
+info = "Open Source Digital Signage. No lock-in. No bullshit"
+description = "Niko Sagiadinos - Developer of GarlicSignage. Open source digital signage without vendor lock-in."
+keywords = "digital signage, SMIL, open source, GarlicSignage"
+    [params.colorScheme]
+    toggle = true
+    defaultScheme = "auto"
+since = 2026
+    [[params.widgets.page]]
+    type = "toc"
+
+[params.Entry]
+toc = true
+tocOpen = true
+
+[[params.social]]
+name = "GitHub"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/sagiadinos/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 3
+url = "https://www.linkedin.com/in/niko-sagiadinos/"
+
+[[params.social]]
+name = "GarlicSignage"
+icon = "fa-solid fa-globe fa-2x"
+weight = 2
+url = "https://garlic-signage.com"
+
+[[menus.main]]
+name = "Articles"
+url = "/articles/"
+weight = 1
+
+[[menus.main]]
+name = "About"
+url = "/about/"
+weight = 2
+
+[[menus.main]]
+name = "Contact"
+url = "/contact/"
+weight = 3
