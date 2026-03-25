@@ -1,5 +1,5 @@
 ---
-title: "Digital Signage Industry Analysis"
+title: "Digital Signage: Fixing a Broken Industry"
 description: "Honest analysis of the digital signage market: vendor lock-in, missing standards, and what the trade press won't tell you."
 date: 2026-03-12T20:48:52+01:00
 draft: false
