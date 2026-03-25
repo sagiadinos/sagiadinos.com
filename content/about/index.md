@@ -2,6 +2,7 @@
 title: "About"
 date: 2025-01-01
 draft: false
+toc: false
 ---
 
 My father smuggled supplies for Greek partisans. My mother survived two near-executions by German soldiers as a child. I grew up knowing that systems of power exist to serve themselves, and that the people who push back matter.
