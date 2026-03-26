@@ -1,7 +1,7 @@
 ---
 title: "Why Big PHP Frameworks Waste Your Time"
 description: "After 20 years of PHP development, I evaluated Laravel, Symfony, CodeIgniter and others for a real IoT project. Here's why I ditched them all for Slim4, Mustache, and Composer libs."
-date: 2026-03-26T20:13:00+01:00
+date: 2026-03-25T20:15:00+01:00
 draft: false
 toc: true
 image: "php-titanic.jpg"
@@ -30,7 +30,7 @@ Let's start with the quicker research.
 - Immobile, bloated
 - Territorial because it leads to vendor lock-ins
 
-![Image description](hippo.webp)
+![AI created](hippo.webp)
 
 In short, Laravel immediately distinguished itself. I can slow down servers with my own shitty code just fine and don't need Eloquent for that.
 
@@ -81,7 +81,7 @@ Not really impressive for a batteries-included framework.
 - Too cumbersome for modern requirements
 - Legacy monsters
 
-![Image description](dinosaurs-apocalypse.webp)
+![AI created](dinosaurs-apocalypse.webp)
 
 Weren't they really popular at one time? What happened?
 
@@ -133,7 +133,7 @@ Why not use PHP config? Same gibberish.
 
 Like Laravel, Symfony relies heavily on "magic." As long as it runs, fine. But when you need to debug this, you're doomed.
 
-![Image description](horror-octopus.webp)
+![AI created](horror-octopus.webp)
 
 You must dig into framework internals to guess where the error is. Why do I need to know how a car engine works in detail when I just want to drive it?
 
@@ -173,7 +173,7 @@ Your code follows OOP rules perfectly, but the application crashes.
 
 This defeats the entire purpose of a "helpful" abstraction. You need to understand how it works internally to use it correctly.
 
-![Image description](steampunk-operator.webp)
+![AI created](steampunk-operator.webp)
 
 ### Inversion of Control
 With a library, you call the code. With a framework like Symfony or  Laravel the framework calls your code.
@@ -230,7 +230,7 @@ The "logic-less" approach enforces clean separation: business logic stays in cod
 
 Abstraction is useful where it provides security—not where it kills performance and adds complexity, like ORMs.
 
-![Image description](it-hummingbird.webp)
+![AI created](it-hummingbird.webp)
 
 ## Final Words
 Big frameworks promise productivity. They deliver dependency hell and cognitive overhead.
