@@ -20,7 +20,13 @@
                 {{- $Page.Title -}}
             </a>
         </h2>
-    
+        {{ if $IsList }}
+        {{ with $Page.Params.description }}
+        <h3 class="article-subtitle">
+            {{ . }}
+        </h3>
+        {{ end }}
+	    {{ end }}
     </div>
 
     {{ $showReadingTime := $Page.Params.readingTime | default ($Page.Site.Params.article.readingTime) }}
