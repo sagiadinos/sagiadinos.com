@@ -1,7 +1,7 @@
 ---
 title: "Why Big PHP Frameworks Waste Your Time"
 description: "After 20 years of PHP development, I evaluated Laravel, Symfony, CodeIgniter and others for a real IoT project. Here's why I ditched them all for Slim4, Mustache, and Composer libs."
-date: 2026-03-26T20:48:52+01:00
+date: 2026-03-26T20:13:00+01:00
 draft: false
 toc: true
 image: "php-titanic.jpg"
