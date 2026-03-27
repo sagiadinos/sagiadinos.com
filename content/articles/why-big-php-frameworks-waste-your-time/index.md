@@ -131,6 +131,8 @@ I wanted to use modern DI, but I spent more time configuring the container's XML
 By the way, YAML files are great for debugging. Just kidding, they're a nightmare.
 Why not use PHP config? Same gibberish.
 
+I tried both. The config format wasn't the problem; The DI container behavior was identical regardless.
+
 Like Laravel, Symfony relies heavily on "magic." As long as it runs, fine. But when you need to debug this, you're doomed.
 
 ![AI created](horror-octopus.webp)
